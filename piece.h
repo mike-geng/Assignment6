@@ -21,7 +21,7 @@ public:
 		}
 	}
 
-	bool is_blank()const {return theColor == blank;}
+	bool is_blank()const {return theColor == blank;}	/*!< A member function to test if a space on the board is blank.*/
 	bool is_black()const {return theColor == black;}
 	bool is_white()const {return theColor == white;}
 	void set_white() {theColor = white;}

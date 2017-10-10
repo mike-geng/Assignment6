@@ -31,7 +31,7 @@ protected:
 	// OPTIONAL VIRTUAL FUNCTIONS (overriding these is optional)
 	// *******************************************************************
 	virtual void display_message(const std::string& message) const;
-	virtual std::string get_user_move( ) const;
+	virtual std::string get_user_move( ) const;	/*!< A member function called to prompt user for their move. */
 	virtual who last_mover( ) const
 	{ return (move_number % 2 == 1 ? HUMAN : COMPUTER); }
 	virtual int moves_completed( ) const { return move_number; }

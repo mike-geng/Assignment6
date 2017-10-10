@@ -8,6 +8,12 @@
 namespace main_savitch_14
 {
 
+/*
+ * This function displays the board. The display_status function displays the
+ * board with its pieces. By using for loops each spot on the board is tested for a piece.
+ * when the test is positive an if statement is used and a peice is generated for 
+ * display.
+ */
 void Othello::display_status()const
 {
   cout << BLUE << "   _______ _______ _______ _______ _______ _______ _______ _______\n";
