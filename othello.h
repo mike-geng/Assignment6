@@ -33,7 +33,7 @@ public:
 	who winning()const;
 
 protected:
-	int black;
+	int black;	/*!< Private member variable. Represents number of black pieces. */
 	int white;
 	int skips;
 	int openSpots;

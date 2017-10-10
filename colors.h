@@ -41,7 +41,7 @@ const string RESET     = "\e[0m";
 const string ERROR     = "\e[1;41;37m\a";
 const string MENU       = "\e[44;37m";
 
-const string BLACK      = "\e[30m";
+const string BLACK      = "\e[30m";	/*!< This string will cause all other strings after it to be output as black. */
 const string RED        = "\e[31m";
 const string GREEN      = "\e[32m";
 const string YELLOW     = "\e[33m";
